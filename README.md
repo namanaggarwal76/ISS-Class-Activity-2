@@ -3,31 +3,36 @@ ISS class activity 2, fix the python code
 
 Fixes Implemented
 
-1. Fix 1: Added a semicolon (:) after the function definition for is_narc(n).
+List of Fixes
+
+1. Added a semicolon after function definition in is_narc(n).
 
 
-2. Fix 2: Changed == to = when assigning num_str = str(n).
+2. Changed == to = when assigning num_str.
 
 
-3. Fix 3: Changed == to = when assigning num_digits = len(num_str).
+3. Changed == to = when assigning num_digits.
 
 
-4. Fix 4: Replaced *** with ** in the power calculation inside sum().
+4. Fixed exponentiation operator from *** to ** in sum_of_powers.
 
 
-5. Fix 5: Added a semicolon (:) after the function definition for print_narcis_numbers(start, end).
+5. Added a semicolon after function definition in print_narcis_numbers(start, end).
 
 
-6. Fix 6: Added a missing comma , between start and end + 1 in the range() function.
+6. Added a comma between parameters start and end.
 
 
-7. Fix 7: Corrected the function call by using the correct function name is_narc(num).
+7. Added a colon (:) after the for loop in print_narcis_numbers.
 
 
-8. Fix 8: Added a missing colon (:) after the if statement in print_narcis_numbers().
+8. Called the function by its correct name when using is_narc(num).
 
 
-9. Fix 9: Corrected the function call by using the correct function name print_narcis_numbers(1000, 5000).
+9. Added a colon (:) after the if condition in print_narcis_numbers.
+
+
+10. Called the function by its correct name in print_narcis_numbers(1000, 5000).
 
 
 Summary
