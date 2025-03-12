@@ -7,10 +7,10 @@ def is_narc(n): #fix1
     
     return sum_of_powers == n
 
-def print_narcis_numbers(start, end): #fix5
+def print_narcis_numbers(start, end): #fix5 and fix6
     """Print all narc numbers in a given range."""
-    for num in range(start, end + 1): #fix6
-        if is_narc(num): #fix7 and fix8
+    for num in range(start, end + 1): #fix7
+        if is_narc(num): #fix8 and fix9
             print(num)
 
-print_narcis_numbers(1000, 5000)  #fix9
+print_narcis_numbers(1000, 5000)  #fix10
